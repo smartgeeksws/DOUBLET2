@@ -4,4 +4,16 @@
     <item android:drawable="@drawable/btn_jugar_presionado" android:state_pressed="true"></item>
     <item android:drawable="@drawable/btn_jugar"></item>
 
+    <item android:drawable="@drawable/btn_menu_presionado" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/btn_menu"></item>
+
+    <item android:drawable="@drawable/btn_play_presionado" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/btn_play"></item>
+
+    <item android:drawable="@drawable/btn_score_presionado" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/btn_score"></item>
+
+    <item android:drawable="@drawable/btn_settings_presionado" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/btn_settings"></item>
+
 </selector>
