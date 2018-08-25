@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaJuego">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJugador1"
+                android:textSize="20dp"
+                android:text="Jugador1"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"/>
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cronometroJ1"
+                android:paddingLeft="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJugador2"
+                android:textSize="20dp"
+                android:text="Jugador2"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"/>
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cronometroJ2"
+                android:paddingLeft="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:stretchColumns="2">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/iv00"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+
+            <ImageView
+                android:id="@+id/iv01"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/iv10"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+
+            <ImageView
+                android:id="@+id/iv11"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/iv20"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+
+            <ImageView
+                android:id="@+id/iv21"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/iv30"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+
+            <ImageView
+                android:id="@+id/iv31"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/btn_menu" />
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>
